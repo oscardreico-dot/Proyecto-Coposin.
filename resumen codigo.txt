@@ -1,0 +1,31 @@
+CODIGO SINTACTICO:
+Este código tiene una clase principal llamada sintáctico y dos subclases de nombre variables y análisis.
+En la clase variables declara tres objetos protegidos para que solo se utilicen como base para el código
+de tipo string llamada información de tipo char llamada dato y de la clase variables llamado interno.
+
+En la clase análisis se declara una clase privada llamada variables con el objeto valor final, 
+se crea el constructor llamado igual que la clase análisis donde se declara el objeto valorfinal 
+como nulo, luego crea el constructor que va a recibir los datos llamada agregar con un objeto 
+tipo char dato, luego se crea la herencia apartir de la clase variables con el objeto nuevaV,  
+para tomar el dato que se ingrese, luego compara la información con el objeto valorfinal que es nulo 
+comparándolo con el objeto nuevaV junto con la protegida interno declarar valorfinal igual a nuevaV 
+dejando los datos nulo y sino cumple con estas condiciones declarando los mismos objetos el registra 
+el dato ingresado, luego crea un constructor de tipo char llamado abstraer donde compara el objeto 
+valorfinal declarando que sea diferente o igual a nulo para registrar el último dato ingresado y 
+declara un objeto de tipo char llamado info que es igual al valorfinal perteneciente a datos, 
+luego declara valorfinal igualándolo al valorfinal perteneciente a interno retornamdolo al objeto info
+sino lo regresa a variable o dato inicial.
+se crea un constructor de tipo boleano llamado vacio donde regresa al objeto valorfinal a nulo.
+
+En la clase sintactico se declara insertar vasio y se compara can validacion para mostrar si la formula 
+es correcta o incorrecta deacuerdo a los datos ingresasdos, luego con el constructor de tipo boleano de 
+validacion compara con el objeto string tamaño los elementos que componen la formula teniendo encunta 
+los [], los {}, los (),teniendo encuenta el objeto analizador de la herencia de analisis para evaluar 
+los datos digitados y si son iguales o deferentes devolverlos como falsos y sino regresalo al objeto 
+analizador vacio, luego crea el constructor insertar para por intemedio del objeto informacion registrar 
+los datos o valores y caracteristicas de la formula.
+
+para concluir al codigo le falta estableser los errores donde al organizar la formula determine si tiene 
+las caracteristicas correspondientes, teniendo en cuenta que si la formula no tiene ninguno de los 
+caracteres {}, [], y () no la valide y sin hay diferentes a estos tampoco los valide siempre y cuando no
+sean numeros o letras determinar comparandolo con estos
